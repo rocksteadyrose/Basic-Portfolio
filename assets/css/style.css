@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      background-image: url('../images/LadyLips.png');
+      margin: 0 auto;
+  }
+
+  #wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+  #name {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #49AEC0;
+    padding: 30px;
+  }
+
+  #navbar {
+      float: left;
+      background-color: #DD577A;
+      width: 100%;
+  }
+
+  #navbar #name {
+    display: block;
+    background-color: #FFF0CF;
+  }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+  }
+
+li {
+    padding: 5px 20px 5px 20px;
+    display: inline;
+    text-align: center; 
+
+  }
+
+li a {
+    color: #FFF0CF;
+    text-decoration: none;
+}
+
+#aboutpic {
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+#about, #aboutpic {
+    float: left;
+}
+
+#about {
+    width: 650px;
+    background-color: #49AEC0;
+    margin-top: 10px;
+    padding-right: 4px;
+    padding-left: 6px;
+}
+
+#connect {
+    float: right;
+    width: 270px;
+    background-color: #49AEC0;
+    margin-top: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+
+#github, #stack, #linkedin {
+    width: 30%;
+}
+
+footer {
+    clear: both;
+}

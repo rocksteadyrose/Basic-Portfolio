@@ -58,13 +58,53 @@ li a {
     float: left;
 }
 
-#about {
+#about, #portfolio {
     width: 650px;
     background-color: #49AEC0;
     margin-top: 10px;
     padding-right: 4px;
     padding-left: 6px;
 }
+
+#portfolio {
+    float: left;
+}
+
+
+#hangman, #rpg {
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
+
+ #trivia, #rutgers {
+     float: left;
+     padding: 10px;
+     width: 50%;
+ }
+
+ .clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
+ 
+ #rpscissors {
+     float: left;
+     padding: 10px;
+     width: 50%;
+ }
+
 
 #connect {
     float: right;
@@ -75,7 +115,6 @@ li a {
     padding-left: 6px;
     padding-bottom: 5px;
     text-align: center;
-
 }
 
 #github, #stack, #linkedin {

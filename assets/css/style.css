@@ -12,40 +12,37 @@
     width: 960px;
 }
 
-  #name {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #49AEC0;
-    padding: 30px;
-  }
-
-  #navbar {
-      float: left;
-      background-color: #DD577A;
-      width: 100%;
-  }
-
-  #navbar #name {
-    display: block;
-    background-color: #FFF0CF;
-  }
-
- ul {
+#navbar ul {
+    background-color: #DD577A;
+    width: 100%;
+    padding: 0 1px 0 1px;
+    margin: 0 auto;
     list-style-type: none;
-    margin: 0;
+    text-align: center;
     float: right;
-  }
-
-li {
-    padding: 5px 20px 5px 20px;
-    display: inline;
-    text-align: center; 
-
-  }
-
-li a {
-    color: #FFF0CF;
-    text-decoration: none;
 }
+
+#navbar ul li:first-child {
+    float: left;
+    background-color: #FE5A27;
+    color: #FFF0CF;
+}
+#navbar ul li {
+    display: inline;
+    padding: 25px 15px 25px 15px;
+    float: right;
+}
+
+#navbar ul li a {
+    color: #FFF0CF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 25px 25px;
+}
+
+#navbar ul li a:hover {
+    color: #49AEC0;
+    background-color: #FE5A27; }
 
 #aboutpic {
     width: 200px;
@@ -58,16 +55,24 @@ li a {
     float: left;
 }
 
-#about, #portfolio {
+#about, #portfolio, #contact {
     width: 650px;
     background-color: #49AEC0;
     margin-top: 10px;
     padding-right: 4px;
     padding-left: 6px;
+    margin-bottom: 10px;
 }
 
 #portfolio {
     float: left;
+}
+
+#contact {
+    float: left;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -98,7 +103,7 @@ li a {
     height: 0; 
     clear: both;
  }
- 
+
  #rpscissors {
      float: left;
      padding: 10px;
@@ -123,4 +128,8 @@ li a {
 
 footer {
     clear: both;
+    text-align: center;
+    background-color: #DD577A;
+    padding: 30px;
+    margin-top: 50px;
 }

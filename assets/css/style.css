@@ -4,25 +4,29 @@
 
   body {
       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-      background-image: url('../images/LadyLips.png');
+      background-image: url('../images/021 True Sunset.png');
       margin: 0 auto;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
-      color: #131723;
+      color: #04045C;
   }
 
   #wrapper {
     margin: 0 auto;
     width: 960px;
     flex: 1;
+    padding-top: 20px;
 }
 
 #nav-container {
     width: 100%;
     margin: 0 auto;
-    background-color: #DD577A;
+    background-color: #1CBABC;
+    float: left;
+    overflow: hidden;
     height: 70px;
+    border-bottom: solid #EEA25F 3px;
 }
 
 #navbar {
@@ -32,10 +36,11 @@
 
 #name {
     float: left;
-    margin: 0 auto;
-    background-color: #49AEC0;
-    overflow: hidden;
-    padding: 0 1px 2px 1px;
+    height: 200px;
+    display: inline-block;
+    background-color: #EE728C;
+    padding: 0 10px 10px 10px;
+    color: #6CD1C8;
 }
 
 ul {
@@ -48,11 +53,11 @@ li {
 }
 
 li a {
-    color: #FFF0CF;
+    color: #EE728C;
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;
-    padding: 30px 15px;
+    padding: 23px 17px 10px;
     opacity: 0.7;
     display: block;
     height: 70px;
@@ -60,8 +65,8 @@ li a {
 }
 
 li a:hover {
-    color: #49AEC0;
-    background-color: #FE5A27;
+    color: #EE728C;
+    background-color: #04045C;
 }
 
 #aboutpic {
@@ -77,15 +82,17 @@ li a:hover {
 
 #about, #portfolio, #contact {
     width: 650px;
-    background-color: #49AEC0;
+    background-color: #EEC89C;
     margin-top: 10px;
     padding-right: 4px;
     padding-left: 6px;
     margin-bottom: 10px;
+    border: 3px solid #1CBABC;
 }
 
 #portfolio {
     float: left;
+    padding: 0 0 10px 20px;
 }
 
 .portfolioimages {
@@ -104,41 +111,36 @@ li a:hover {
 #hangmanfigcaption {
     position: absolute;
     top: 170px;
-    right: 290px;
-    padding: 0 90px 0 90px;
-    background-color: #DD577A;
+    right: 282px;
+    padding: 0 81px 0 91px;
 }
 
 #rpgfigcaption {
     position: absolute;
     top: 170px;
     right: 10px;
-    padding: 0 84px 0 85px;
-    background-color: #DD577A;
+    padding: 0 84px 0 77px;
 }
 
 #triviafigcaption {
     position: absolute;
-    padding: 0 79px 0 79px;
+    padding: 0 70px 0 79px;
     top: 170px;
     left: 8px;
-    background-color: #DD577A;
 }
 
 #rutgersfigcaption {
     position: absolute;
-    padding: 0 43px 0 43px;
+    padding: 0 43px 0 39px;
     top: 170px;
     right: 10px;
-    background-color: #DD577A;
 }
 
 #rpscissorsfigcaption {
     position: absolute;
-    padding: 0 45px 0 45px;
+    padding: 0 40px 0 44px;
     top: 170px;
     left: 8px;
-    background-color: #DD577A;
     z-index: 5;
 }
 
@@ -150,11 +152,15 @@ li a:hover {
     clear: both;
  }
 
+ figcaption {
+    background-color: #EE728C;
+}
+
 #contact {
     float: left;
     padding: 0 20px 30px 20px;
     line-height: 20px;
-    color: #131723;
+    color: #04045C;
 }
 
 .nameemailinput {
@@ -167,24 +173,23 @@ li a:hover {
 }
 
 #button {
-    background-color: #FE5A27;
+    background-color: #EE728C;
     padding: 10px;
     border: solid 0px;
     width: 70px;
     margin-top: 10px;
-    color: #FFF0CF;
+    color: #04045C;
     font-size: 1em;
 }
 
 #button:hover {
-    background-color: #131723;
+    background-color: #6CD1C8;
 }
-
 
 #connect {
     float: right;
     width: 270px;
-    background-color: #49AEC0;
+    background-color: #EEC89C;
     margin-top: 10px;
     padding-right: 6px;
     padding-left: 6px;
@@ -194,16 +199,18 @@ li a:hover {
 
 #github, #stack, #linkedin {
     width: 30%;
+    height: 75px;
 }
 
 #github:hover, #stack:hover, #linkedin:hover {
-    background-color: #DD577A;
+    background-color: #04045C;
 }
 
 footer {
     clear: both;
     text-align: center;
-    background-color: #DD577A;
+    background-color: #6CD1C8;
+    margin-top: 20px;
     padding: 20px;
-    border-top: #131723 8px solid;
+    border-top: #EEAC9C 8px solid;
 }

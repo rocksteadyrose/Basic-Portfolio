@@ -27,6 +27,7 @@
     overflow: hidden;
     height: 70px;
     border-bottom: solid #EEA25F 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #navbar {
@@ -41,6 +42,24 @@
     background-color: #EE728C;
     padding: 0 10px 10px 10px;
     color: #6CD1C8;
+}
+
+.hr {
+    border-top: 1px solid #EE728C;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#portfolio .hr {
+    width: 84%;
+}
+
+#portfolio h1 {
+    margin-left: 48px;
+}
+
+p a {
+    text-decoration: none;
 }
 
 ul {
@@ -71,9 +90,8 @@ li a:hover {
 
 #aboutpic {
     width: 200px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-left: 8px;
+    margin-right: 12px;
+    margin-top: 8px;
 }
 
 #about, #aboutpic {
@@ -84,10 +102,10 @@ li a:hover {
     width: 650px;
     background-color: #EEC89C;
     margin-top: 10px;
-    padding-right: 4px;
-    padding-left: 6px;
+    padding: 0 15px 0 15px;
     margin-bottom: 10px;
     border: 3px solid #1CBABC;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #portfolio {
@@ -156,6 +174,11 @@ li a:hover {
     background-color: #EE728C;
 }
 
+figcaption:hover {
+    background-color: #04045C;
+    color: #1CBABC;
+}
+
 #contact {
     float: left;
     padding: 0 20px 30px 20px;
@@ -195,6 +218,8 @@ li a:hover {
     padding-left: 6px;
     padding-bottom: 5px;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 3px solid #1CBABC;
 }
 
 #github, #stack, #linkedin {
@@ -213,4 +238,5 @@ footer {
     margin-top: 20px;
     padding: 20px;
     border-top: #EEAC9C 8px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

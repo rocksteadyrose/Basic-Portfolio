@@ -9,6 +9,7 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      color: #131723;
   }
 
   #wrapper {
@@ -87,18 +88,58 @@ li a:hover {
     float: left;
 }
 
-#contact {
-    float: left;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-}
-
-
-#hangman, #rpg {
+.portfolioimages {
+    width: 50%;
+    height: 250px;
     float: left;
     padding: 10px;
-    width: 50%;
+    z-index: 0;
+}
+
+#hangman, #rpg, #trivia, #rutgers, #rpscissors {
+    z-index: 1;
+    position: relative;
+}
+
+#hangmanfigcaption {
+    position: absolute;
+    top: 170px;
+    right: 290px;
+    padding: 0 90px 0 90px;
+    background-color: #DD577A;
+}
+
+#rpgfigcaption {
+    position: absolute;
+    top: 170px;
+    right: 10px;
+    padding: 0 84px 0 85px;
+    background-color: #DD577A;
+}
+
+#triviafigcaption {
+    position: absolute;
+    padding: 0 79px 0 79px;
+    top: 170px;
+    left: 8px;
+    background-color: #DD577A;
+}
+
+#rutgersfigcaption {
+    position: absolute;
+    padding: 0 43px 0 43px;
+    top: 170px;
+    right: 10px;
+    background-color: #DD577A;
+}
+
+#rpscissorsfigcaption {
+    position: absolute;
+    padding: 0 45px 0 45px;
+    top: 170px;
+    left: 8px;
+    background-color: #DD577A;
+    z-index: 5;
 }
 
 .clearfix:after { 
@@ -109,25 +150,35 @@ li a:hover {
     clear: both;
  }
 
- #trivia, #rutgers {
-     float: left;
-     padding: 10px;
-     width: 50%;
- }
+#contact {
+    float: left;
+    padding: 0 20px 30px 20px;
+    line-height: 20px;
+    color: #131723;
+}
 
- .clearfix:after { 
-    content: "."; 
-    visibility: hidden; 
-    display: block; 
-    height: 0; 
-    clear: both;
- }
+.nameemailinput {
+    width: 100%;
+}
 
- #rpscissors {
-     float: left;
-     padding: 10px;
-     width: 50%;
- }
+#textareainput {
+    width: 100%;
+    height: 200px;
+}
+
+#button {
+    background-color: #FE5A27;
+    padding: 10px;
+    border: solid 0px;
+    width: 70px;
+    margin-top: 10px;
+    color: #FFF0CF;
+    font-size: 1em;
+}
+
+#button:hover {
+    background-color: #131723;
+}
 
 
 #connect {
@@ -145,9 +196,14 @@ li a:hover {
     width: 30%;
 }
 
+#github:hover, #stack:hover, #linkedin:hover {
+    background-color: #DD577A;
+}
+
 footer {
     clear: both;
     text-align: center;
     background-color: #DD577A;
-    padding: 30px;
+    padding: 20px;
+    border-top: #131723 8px solid;
 }

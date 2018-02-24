@@ -109,20 +109,21 @@ li a:hover {
     margin-bottom: 10px;
     border: 3px solid #1CBABC;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    float: left;
 }
 
-.portfolioimages {
-    width: 50%;
+#portfolio {
+    float: left;
+    padding: 0 0 10px 20px;
+}
+
+#hangman, #rpg, #rutgers, #trivia, #rpscissors {
+    display: inline-block;
+    width: 325px;
     height: 250px;
     float: left;
     padding: 10px;
-    z-index: 0;
-}
-
-#hangman, #rpg, #trivia, #rutgers, #rpscissors {
-    z-index: 1;
     position: relative;
+    overflow: hidden;
 }
 
 #hangmanfigcaption {
@@ -179,6 +180,7 @@ figcaption:hover {
 }
 
 #contact {
+    float: left;
     padding: 0 20px 30px 20px;
     line-height: 20px;
     color: #04045C;

@@ -24,7 +24,6 @@
       color: #04045C;
   }
 
-
 #nav-container {
     width: 100%;
     margin: 0 auto;
@@ -72,7 +71,7 @@ p a {
 }
 
 p a:hover {
-    color: #EE728C;
+    color: #1CBABC;
 }
 
 ul {
@@ -104,18 +103,16 @@ li a:hover {
 #about, #contact, #portfolio {
     width: 650px;
     background-color: #EEC89C;
-    margin-top: 10px;
+    margin: 10px 0 10px;
     border: 3px solid #1CBABC;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     float: left;
     padding: 0 15px 0 15px;
-    margin-bottom: 10px;
 }
 
 #aboutpic {
     width: 200px;
-    margin-right: 12px;
-    margin-top: 8px;
+    margin: 8px 18px 0 0;
     float: left;
 }
 
@@ -136,26 +133,25 @@ li a:hover {
     height: 250px;
     float: left;
     padding: 12px;
-    border: 0px;
 }
 
 #hangmanfigure, #rpgfigure, #triviafigure, #rutgersfigure, #rpscissorsfigure {
     position: relative;
-    margin: 0;
+    margin: 0 auto;
 }
 
 #hangmancaption {
     position: absolute;
     top: 170px;
-    left: 11px;
-    padding: 15px 99px 15px 99px;
+    left: 12px;
+    padding: 15px 98.5px 15px 98.5px;
 }
 
 #rpgcaption {
     position: absolute;
     top: 170px;
     right: 11.8px;
-    padding: 15px 95.5px 15px 95.5px;
+    padding: 15px 95.2px 15px 95.5px;
 }
 
 #triviacaption {
@@ -178,7 +174,7 @@ li a:hover {
     padding: 0px 36.5px 0px;
     top: 170px;
     left: 12px;
-    padding: 15px 57px 15px 57px;
+    padding: 15px 58px 15px 57px;
 }
 
 .clearfix:after { 
@@ -189,7 +185,6 @@ li a:hover {
     clear: both;
  }
 
- 
 figcaption {
     background-color: #EE728C;
     font-size: 20px;
@@ -208,6 +203,7 @@ figcaption:hover {
 
 .nameemailinput {
     width: 100%;
+    border: solid .5px black;
 }
 
 #textareainput {
@@ -218,7 +214,7 @@ figcaption:hover {
 #button {
     background-color: #EE728C;
     padding: 10px;
-    border: solid 0px;
+    border: solid 0;
     width: 70px;
     margin-top: 10px;
     color: #04045C;

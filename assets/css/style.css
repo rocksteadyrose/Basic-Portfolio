@@ -66,14 +66,6 @@
     width: 100%;
 }
 
-#portfolio .hr {
-    width: 84%;
-}
-
-#portfolio h1 {
-    margin-left: 48px;
-}
-
 p a {
     text-decoration: none;
     color: #EE728C;
@@ -109,7 +101,7 @@ li a:hover {
     background-color: #04045C;
 }
 
-#about, #portfolio, #contact {
+#about, #contact, #portfolio {
     width: 650px;
     background-color: #EEC89C;
     margin-top: 10px;
@@ -120,10 +112,6 @@ li a:hover {
     margin-bottom: 10px;
 }
 
-#portfolio {
-    padding-bottom: 20px;
-}
-
 #aboutpic {
     width: 200px;
     margin-right: 12px;
@@ -131,53 +119,66 @@ li a:hover {
     float: left;
 }
 
+#portfolio {
+    padding: 0 20px 20px 20px;
+}
+
+#portfolio .hr {
+    width: 96%;
+}
+
+#portfolio h1 {
+    margin-left: 12px;
+}
+
 .portfolioimages {
     width: 50%;
     height: 250px;
     float: left;
-    /* z-index: 0; */
-    padding: 10px;
+    padding: 12px;
+    border: 0px;
 }
 
-#hangman, #rpg, #trivia, #rutgers, #rpscissors {
-    /* z-index: 1; */
+#hangmanfigure, #rpgfigure, #triviafigure, #rutgersfigure, #rpscissorsfigure {
     position: relative;
-    box-shadow: 10px 4px 40px 1px #1CBABC;
+    margin: 0;
 }
 
-#hangmanfigcaption {
+#hangmancaption {
     position: absolute;
     top: 170px;
-    right: 276px;
-    padding: 0 81px 0 83px;
+    left: 11px;
+    padding: 15px 99px 15px 99px;
 }
 
-#rpgfigcaption {
+#rpgcaption {
     position: absolute;
     top: 170px;
-    right: 10px;
-    padding: 0 84px 0 72px;
+    right: 11.8px;
+    padding: 15px 95.5px 15px 95.5px;
 }
 
-#triviafigcaption {
+#triviacaption {
     position: absolute;
-    padding: 0 65px 0 79px;
     top: 170px;
-    left: 9px;
+    left: 12px;
+    padding: 15px 92.1px 15px 88px;
 }
 
-#rutgersfigcaption {
+#rutgerscaption {
     position: absolute;
     padding: 0 43px 0 32px;
     top: 170px;
-    right: 10px;
+    right: 12px;
+    padding: 15px 60px 15px 57px;
 }
 
-#rpscissorsfigcaption {
+#rpscissorscaption {
     position: absolute;
     padding: 0px 36.5px 0px;
     top: 170px;
-    left: 10px;
+    left: 12px;
+    padding: 15px 57px 15px 57px;
 }
 
 .clearfix:after { 
@@ -188,8 +189,10 @@ li a:hover {
     clear: both;
  }
 
- figcaption {
+ 
+figcaption {
     background-color: #EE728C;
+    font-size: 20px;
 }
 
 figcaption:hover {
